@@ -7,7 +7,7 @@
 #include "omx_cmd.h"
 #include "arg_parser.h"
 
-#define USAGE 
+#define USAGE
 /**
  *
  *
@@ -24,7 +24,7 @@ static struct option long_options[] = {
 
 void opt_parser(int argc, char* argv[])
 {
-    int opt;//, optind;
+    int opt, optind;
 
     while(1) {
         //int this_option_optind = optind ? optind: 1;
